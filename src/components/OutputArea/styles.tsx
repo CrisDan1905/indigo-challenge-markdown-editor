@@ -1,17 +1,5 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
-  display: flex;
-  gap: 2rem;
-  padding: 1rem;
-`
-
-export const TextArea = styled.textarea`
-  width: 50%;
-  height: 95vh;
-  resize: none;
-`
-
 export const Aside = styled.aside`
   width: 50%;
   height: 95vh;
