@@ -48,5 +48,8 @@
     "endOfLine": "auto",
     "quoteProps": "consistent",
     "printWidth": 100
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.26"
   }
 }
