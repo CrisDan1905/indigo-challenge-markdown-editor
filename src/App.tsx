@@ -1,5 +1,5 @@
 import React, { BaseSyntheticEvent, ReactElement } from "react";
-import { Aside, Container, TextArea, GlobalStyle } from "./styles";
+import { Aside, Container, TextArea } from "./styles";
 
 type Block = {
   element: 'ul' | 'li' | 'p' | 'h1' | 'h2';
@@ -64,7 +64,6 @@ function App() {
 
   return (
     <>
-      <GlobalStyle />
       <Container>
         <InputArea onChange={onInputChange}/>
         <OutputArea blocks={parsedMarkdown}></OutputArea>
